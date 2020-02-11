@@ -6,15 +6,15 @@
  - Ранее сокращенные ссылки можно "развернуть" - получить полную ссылку на выходе
  - Список доступных действий доступен по /api/help
  
-##Технологии
+## Технологии
  - [Laravel](https://laravel.com/)
  - [Hashids](https://hashids.org/) -  Для генерации уникальных коротких ссылок
  
-##Затраченное время
+## Затраченное время
   - Код - 2 часа
   - Развертывание - 1 час
 
-##Комментарии по развертыванию
+## Комментарии по развертыванию
   0. Понадобится php(7.2 на текущем сервере), mysql, composer.
   0. `git clone https://github.com/KuzminKirill/url-shortener.git`
   0. `cd url-shortener`
@@ -23,5 +23,5 @@
   0. `php artisan make:migration и php artisan migrate`
   0. Правим конфигурационный файл nginx (/etc/nginx/sites-enabled)
   
-#######P.S.
+####### P.S.
 Я забыл добавить в .ginignore папку idea :c
