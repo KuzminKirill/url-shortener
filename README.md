@@ -23,5 +23,5 @@
   0. `php artisan make:migration и php artisan migrate`
   0. Правим конфигурационный файл nginx (/etc/nginx/sites-enabled)
   
-####### P.S.
+###### P.S.
 Я забыл добавить в .ginignore папку idea :c
